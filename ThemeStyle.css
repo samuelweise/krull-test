@@ -1,0 +1,149 @@
+body
+{
+	background-color: black;
+	background-image: url(ThemeImages/Background.jpg);
+	background-repeat: repeat;
+	background-attachment:fixed;
+	color: white;
+	margin:0px;
+	font-family: helvetica, "lucida console", sans-serif;
+	text-shadow: black 1px 1px 5px;
+}
+
+.headlinediv
+{
+	font-size: 32px;
+	font-weight: bold;
+	border-bottom:1px solid white;
+}
+
+.rootpagecommentdiv
+{
+	font-size: 13px;
+	margin: 20px;
+}
+
+.content
+{
+	margin-left:220px;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.sidebar
+{
+	top: 0px;
+	left: 0px;
+	width: 180px;
+	height: 100%;
+	color: white;
+	background-color: black;
+	background-repeat: repeat-y;
+	background-image: url(ThemeImages/SideBarBackground.jpg);
+	position: fixed;
+	padding-left:20px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.sidebarelement
+{
+	margin-top:16px;
+}
+
+.functiondiv
+{
+	font-size: 24px;
+	width:100%;
+	margin:20px;
+}
+
+h1
+{
+	font-size: 24px;
+	border-bottom:1px solid white;
+}
+
+h2
+{
+	font-size: 20px;
+	border-bottom:1px solid white;	
+}
+
+.formattedtable
+{
+	width: 100%;
+	border-color: #ffffff;
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	empty-cells: show;
+	border-collapse:collapse;
+}
+
+.formattedtable td
+{
+	border-color: #ffffff;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+}
+
+.formattedtable th
+{
+	border-color: #ffffff;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	text-align:left;
+	background-color: #444444;
+}
+
+.formattedtableseperator
+{
+	font-style: italic;
+	font-weight:bold;
+}
+
+.subsection
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.advertisementfooter
+{
+	font-size: 14px;
+	text-align:center;
+	width:100%;
+	margin-top: 40px;
+}
+
+.diagramimagediv
+{
+	background-color: #ffffff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+A:link
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+A:visited
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+A:active
+{
+    text-decoration: none;
+    color: #DDDDFF;
+}
+
+A:hover
+{
+    text-decoration: none; 
+    color: #EEEEFF;
+}
